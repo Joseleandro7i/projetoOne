@@ -1,0 +1,21 @@
+.papeldeparede {
+	background: black;
+}
+
+.botaoini {
+	position: absolute;
+	top: 200px;
+	right: 655px;
+	background: burlywood;
+}
+
+.botaoini p:active {
+	font-size: 14px;
+}
+
+.botaoadi {
+	position: absolute;
+	top: 250px;
+	right: 595px;
+	background: burlywood;
+}
