@@ -2,6 +2,25 @@
 	background: black;
 }
 
+.tamanho {
+	background: transparent;
+	width: 600px;
+	height: 400px;
+	position: absolute;
+	top: 118px;
+	left: 440px;
+
+}
+
+.pincel {
+	background-color: rgb(24, 73, 73);
+}
+
+.criarcanvas {
+	
+	background-color: aqua;
+}
+
 .botaoini {
 	position: absolute;
 	top: 200px;
