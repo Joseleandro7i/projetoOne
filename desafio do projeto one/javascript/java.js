@@ -7,7 +7,6 @@ botao1.addEventListener("click", function(event){
     event.preventDefault();
 });
 
-
 function clicarbotaocrip() {  
 	textareacolar.style.background="none";
 	var nadaenco = document.querySelector(".infor");
