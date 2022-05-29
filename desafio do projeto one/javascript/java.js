@@ -1,6 +1,7 @@
 var textarea = document.querySelector(".textarea");
 var textareadescrip = document.querySelector(".segundotextarea");
 var textareacolar = document.querySelector(".terceirotextarea");
+var imagem = document.querySelector(".imagem");
 
 var botao1 = document.querySelector(".botao3");
 botao1.addEventListener("click", function(event){
@@ -8,7 +9,7 @@ botao1.addEventListener("click", function(event){
 });
 
 function clicarbotaocrip() {  
-	textareacolar.style.background="none";
+	imagem.style.visibility="hidden";
 	var nadaenco = document.querySelector(".infor");
 	nadaenco.textContent ="";
 	var digitalgo = document.querySelector(".seginfor");
@@ -47,7 +48,7 @@ botao2.addEventListener("click", function(event){
 
 function clicarbotaodes() {  
 	
-	textareacolar.style.background="none";
+	imagem.style.visibility= "hidden";
 	var nadaenco = document.querySelector(".infor");
 	nadaenco.textContent = "";
 	var digitalgo = document.querySelector(".seginfor");
